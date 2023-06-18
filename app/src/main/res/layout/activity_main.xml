@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="282dp"
+
+        android:layout_height="283dp"
+        android:background="#00008B"
+        android:backgroundTint="#3F51B5"
+        android:backgroundTintMode="add"
+        app:columnCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.747"
+        app:rowCount="3">
+
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="10sp"
+            android:background="@color/white"
+            android:backgroundTint="@color/yellowe"
+            android:onClick="Check"
+            android:textColor="#000000"
+            android:textSize="44sp" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="10sp"
+            android:background="@color/white"
+            android:backgroundTint="@color/yellowe"
+            android:onClick="Check"
+            android:textColor="#000000"
+            android:textSize="44sp" />
+
+        <Button
+
+            android:id="@+id/btn3"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginBottom="10sp"
+            android:background="@color/white"
+            android:backgroundTint="@color/yellowe"
+            android:onClick="Check"
+            android:textColor="#000000"
+            android:textSize="44sp" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginBottom="10sp"
+            android:background="@color/white"
+            android:backgroundTint="@color/yellowe"
+            android:onClick="Check"
+            android:textColor="#000000"
+            android:textSize="44sp" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginBottom="10sp"
+            android:background="@color/white"
+            android:backgroundTint="@color/yellowe"
+            android:onClick="Check"
+            android:textColor="#000000"
+            android:textSize="44sp" />
+
+        <Button
+
+            android:id="@+id/btn6"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginRight="10sp"
+            android:layout_marginBottom="10sp"
+            android:background="@color/white"
+            android:backgroundTint="@color/yellowe"
+            android:onClick="Check"
+            android:textColor="#000000"
+            android:textSize="44sp" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginBottom="10sp"
+            android:background="@color/yellowe"
+            android:backgroundTint="@color/yellowe"
+            android:onClick="Check"
+            android:textColor="#000000"
+            android:textSize="44sp" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10sp"
+            android:background="@color/white"
+            android:backgroundTint="@color/yellowe"
+            android:onClick="Check"
+            android:textColor="#000000"
+            android:textSize="44sp" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10sp"
+            android:background="@color/white"
+            android:backgroundTint="@color/yellowe"
+            android:onClick="Check"
+            android:textColor="#000000"
+            android:textSize="44sp" />
+
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="385dp"
+        android:layout_height="109dp"
+        android:backgroundTint="#00BCD4"
+        android:backgroundTintMode="src_over"
+        android:ems="10"
+        android:fontFamily="@font/abril_fatface"
+        android:fontFeatureSettings="@string/app_name"
+        android:includeFontPadding="true"
+        android:inputType="text"
+        android:text="Tic_Tac_Toe"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#00BCD4"
+        android:textSize="65sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#673AB7"
+        android:backgroundTintMode="src_in"
+        android:ems="10"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="#FFC107"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.919" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:fontFamily="@font/abril_fatface"
+        android:gravity="center"
+        android:inputType="text"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#E4D4D4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.384" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
